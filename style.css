@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    width: 100%;
+}
+.headcontainer{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+    align-items: center;
+
+
+}
+
+.h1 {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+ .h2 {
+    height: 20px;
+    
+
+
+ }
+
+ 
+/* produits */
+.produits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+
+ .titre {
+
+    background-color: white;
+    height: 270px;
+    width: 100;
+}
+
+
+.produits {
+    background-color: beige;
+    display: flex;
+}
+
+.imagepanier {
+    width: 50%;
+}
+
+
+
+/* images a aligner sur la ligne  */
+.pictures{
+    background-color: white;
+    
+    width: 160;
+}
+
+.triopictures {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 80px;
+}
+
+
+
+ .temtitle {
+    color: white;
+ }
+
+.temoigner {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    
+
+}
+
+.credits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6ef;
+  padding: 60px 0;
+}
+
+.picturend {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picturend img {
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+}
+
+.textbloc {
+  flex: 1;
+  min-width: 300px;
+  padding: 50px;
+
+}
+
+.textbloc h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.textbloc p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .credits {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .textbloc {
+    padding: 30px 20px;
+  }
+
+  .picturend img {
+    width: 100%;
+  }
+}
+
+.picturend {
+    height: 90vh;
+    display: flex;
+
+}
+
